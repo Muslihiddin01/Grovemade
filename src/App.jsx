@@ -29,7 +29,9 @@ function App() {
             <h3 className='font-semibold text-lg'>GROVEMADE</h3>
           </div>
             <li className='list-none hidden lg:block'>My Cart</li>
-            <BarsOutlined className='lg:hidden text-2xl' />
+            <span className='lg:hidden text-2xl'>
+            <BarsOutlined />
+            </span>
         </nav>
 
         <section style={{backgroundImage: `url(${headerImg})`}} className='bg-cover w-full h-[50vh] text-white flex flex-col gap-3 items-center justify-center'>
